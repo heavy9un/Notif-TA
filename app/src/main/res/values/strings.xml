@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Yang Satunya</string>
+    <string name="monitor">Suhu :</string>
+    <string name="on">ON</string>
+    <string name="off">OFF</string>
+    <string name="lambang_pnj">lambang pnj</string>
+    <string name="nampil_suhu">...</string>
+    <string name="cek">Tampil Suhu</string>
+    <string name="suhu_naik">UP</string>
+    <string name="suhu_turun">DOWN</string>
+    <string name="remote">Suhu Remote :</string>
+    <string name="nampil_remote">...</string>
+    <string name="notif">Notif</string>
+</resources>

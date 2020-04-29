@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFEFC"
+        tools:context=".MainActivity">
+
+        <ImageView
+            android:id="@+id/logo_pnj"
+            android:layout_width="151dp"
+            android:layout_height="147dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:contentDescription="@string/lambang_pnj"
+            app:srcCompat="@drawable/logopnj" />
+
+        <TextView
+            android:id="@+id/monitor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/logo_pnj"
+            android:layout_centerHorizontal="false"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/monitor"
+            android:textColor="#E91E63"
+            android:textSize="40sp" />
+
+        <TextView
+            android:id="@+id/suhunya"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/logo_pnj"
+            android:layout_marginStart="150dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/nampil_suhu"
+            android:textSize="40sp" />
+
+        <Button
+            android:id="@+id/tombol_on"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_below="@id/monitor"
+            android:layout_marginTop="10dp"
+            android:text="@string/on"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/tombol_off"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_below="@id/tombol_on"
+            android:layout_marginTop="10dp"
+            android:text="@string/off"
+            android:textSize="30sp"/>
+
+        <Button
+            android:id="@+id/btn_up"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_below="@id/tombol_off"
+            android:layout_marginTop="10dp"
+            android:text="@string/suhu_naik"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/btn_down"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_below="@id/btn_up"
+            android:layout_marginTop="10dp"
+            android:text="@string/suhu_turun"
+            android:textSize="30sp" />
+
+    </RelativeLayout>
+</ScrollView>
